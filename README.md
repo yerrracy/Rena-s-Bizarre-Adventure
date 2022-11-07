@@ -1,1 +1,2 @@
-# Rena-s-Bizarre-Adventure
+# Lab213.cn
+## 一个完成于古代时期的个人静态网站

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<!-- Site title
+   ================================================== -->
+	<title>LAB213 - Crazy Painter</title>
+
+	<!-- Bootstrap CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Animate CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/animate.min.css">
+
+	<!-- Font Icons CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<!-- Main CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Google web font 
+   ================================================== -->
+	<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?1b785a25ecfdfa6b83974f50a890480f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</head>
+<body>
+
+
+<!-- Preloader section
+================================================== -->
+<!--
+<div class="preloader">
+
+	<div class="sk-spinner sk-spinner-pulse"></div>
+
+</div>
+-->
+
+
+<!-- Navigation section
+================================================== -->
+<div class="nav-container">
+   <nav class="nav-inner transparent">
+
+      <div class="navbar">
+         <div class="container">
+            <div class="row">
+
+              <div class="brand">
+                <a href="index.html">Lab213</a>
+              </div>
+
+              <div class="navicon">
+                <div class="menu-container">
+
+                  <div class="circle dark inline">
+                    <i class="icon ion-navicon"></i>
+                  </div>
+
+                  <div class="list-menu">
+                    <i class="icon ion-close-round close-iframe"></i>
+                    <div class="intro-inner">
+                     	<ul id="nav-menu">
+                         <li><a href="index.html">Home</a></li>
+                       	 <li><a href="about.html">About</a></li>
+                       	 <li><a href="blog.html">Blog</a></li>
+                       	 <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+         </div>
+      </div>
+
+   </nav>
+</div>
+
+
+<!-- Header section
+================================================== -->
+<section id="header" class="header-two">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
+           		 <div class="header-thumb">
+           		   <h1 class="wow fadeIn" data-wow-delay="0s">New Tech for Soccor Robot</h1>
+           		   <h3 class="wow fadeInUp" data-wow-delay="0s">Hands free</h3>
+           		 </div>
+			</div>
+
+		</div>
+	</div>		
+</section>
+
+
+<!-- Single Project section
+================================================== -->
+<section id="single-project">
+   <div class="container">
+      <div class="row">
+
+         <div class="wow fadeInUp col-md-offset-1 col-md-3 col-sm-offset-1 col-sm-4" data-wow-delay="0s">
+			<div class="project-info">
+				<h4>Designer</h4>
+				<hp>XuYunxiu, LuoShan, ZhaoMi</hp>
+			</div>
+			<div class="project-info">
+				<h4>Date</h4>
+				<hp>2019.4</hp>
+			</div>
+			<div class="project-info">
+				<h4>Category</h4>
+				<p>Computer Vision</p>
+			</div>
+		</div>
+
+		<div class="wow fadeInUp col-md-7 col-sm-7" data-wow-delay="0s">
+			  <p>The thesis of the first technology is here:</p> <a href="pdf/An adaptive robot soccer image.pdf">An adaptive robot soccer image
+segmentation based on HSI color space and
+histogram analysis</a>
+			<img src="images/productimg/AutoColor/aotocolor.jpg" alt=""/>
+			<p>We proposed an adaptive image segmentation method based on HSI color space, which can be used for object identification
+in robot soccer games. This method requires no human intervention, and can guarantee the real-time performance and
+stability of segmentation to cope with the high real-time requirement and uneven illumination in the competition </p>
+			<video width="600" autoplay="autoplay" controls="controls">
+                <source src="images/productimg/AutoColor/autocolor.mp4" type="video/mp4">
+            </video>
+		  <p>Our method is
+not to focusing on the shape or edge features, but to take advantage of characteristics in histograms in different color spaces to
+approach segmentation for one frame image. The range value of each pixels in HSI color space is obtained from the segmentation
+result, then the range value can be used to segment the subsequent images in a high real-time situation. The results shows our
+method has highly accuracy and stability in most of situations. At the same time, we founded that this method can be applied to
+other scenarios which are similar to the histogram of robot soccer field.</p>
+			<img src="images/productimg/AutoColor/qulvimg.jpg" alt=""/>			<!--img src="images/portfolio-img1.jpg" class="img-responsive" alt="Single Project"-->
+			<p>we invented a new method to measure and correct parameters more accurately and conveniently. We put lights on the floor at a fixed distance and had the robot rotate at a constant speed, recording parameters of 360 degrees.
+The light belt is very bright and easy to identify, and as it rotates, the robot can identify and record the positions of these points of light.
+</p>
+            <video width="600" controls="controls">
+                <source src="images/productimg/AutoColor/qulv.MP4" type="video/mp4">
+            </video>
+			<p>Then we sorted the recorded points by the Euclidean distance from the center and plotted them, and got a step-like distribution map. The classification and filtering of different circles can be completed by identifying these steps.This is the result obtained by the method above. It can be seen that in most cases, the positions of these points are relatively correct, and the self-positioning accuracy of the robot is greatly improved.
+
+</p>
+			<img src="images/productimg/AutoColor/qulv2.jpg" alt=""/>
+			
+		</div>
+
+      </div>
+   </div>
+</section>
+
+
+<!-- Footer section
+================================================== -->
+<footer>
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+				<p class="wow fadeInUp"  data-wow-delay="0s">BISTU Lab213 - Designed by XuYunxiu </a> - Collect from <a href="http://www.cssmoban.com/" title="Lab213" target="_blank">Lab213</a></p>
+
+			</div>
+			
+		</div>
+	</div>
+</footer>
+
+
+<!-- Javascript 
+================================================== -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
